@@ -39,6 +39,7 @@
 		73B68F971A0AB82E009F6D44 /* NSObject+DyCInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA14291665491800080374 /* NSObject+DyCInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B68F981A0AB834009F6D44 /* UINib+StoryBoardSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDBEE8E6ED9B91A2C34B09F /* UINib+StoryBoardSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B68F991A0AB839009F6D44 /* SFDynamicCodeInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA142B1665491800080374 /* SFDynamicCodeInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07E215A1B20AA2300114EC0 /* SFDYCIDebugMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = A07E21591B20AA2300114EC0 /* SFDYCIDebugMacro.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		1737CA9177E2DF86AF069946 /* SFDYCIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFDYCIDefines.h; sourceTree = "<group>"; };
 		73B68F731A0AB7BC009F6D44 /* libdyci.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdyci.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B68F751A0AB7BC009F6D44 /* dyci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dyci.h; sourceTree = "<group>"; };
+		A07E21591B20AA2300114EC0 /* SFDYCIDebugMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFDYCIDebugMacro.h; sourceTree = "<group>"; };
 		E4584ADA1759CC5E00460B8C /* SFInjectionsNotificationsCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFInjectionsNotificationsCenter.h; sourceTree = "<group>"; };
 		E4584ADB1759CC5E00460B8C /* SFInjectionsNotificationsCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFInjectionsNotificationsCenter.m; sourceTree = "<group>"; };
 		E4CA13FC166548A700080374 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -170,6 +172,7 @@
 				E4CA142B1665491800080374 /* SFDynamicCodeInjection.h */,
 				E4CA142C1665491800080374 /* SFDynamicCodeInjection.m */,
 				1737CA9177E2DF86AF069946 /* SFDYCIDefines.h */,
+				A07E21591B20AA2300114EC0 /* SFDYCIDebugMacro.h */,
 			);
 			name = Classes;
 			path = ../../dyci/Classes;
@@ -221,6 +224,7 @@
 				73B68F981A0AB834009F6D44 /* UINib+StoryBoardSupport.h in Headers */,
 				73B68F951A0AB829009F6D44 /* SFFileWatcherDelegate.h in Headers */,
 				73B68F961A0AB82C009F6D44 /* UIViewController+XIBSupport.h in Headers */,
+				A07E215A1B20AA2300114EC0 /* SFDYCIDebugMacro.h in Headers */,
 				73B68F971A0AB82E009F6D44 /* NSObject+DyCInjection.h in Headers */,
 				1737C219C5FEFF5353EA18D7 /* SFDYCIDefines.h in Headers */,
 			);
